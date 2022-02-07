@@ -11,9 +11,9 @@ using UnityEngine;
 public class playerMovement : MonoBehaviour
 {
     //private 
-    float speed;
-    float mouseSpeed;
-    Vector2 mouseXY;
+    private float speed;
+    private float mouseSpeed;
+    private Vector2 mouseXY;
 
     // Start is called before the first frame update
     void Start()
